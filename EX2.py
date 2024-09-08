@@ -51,3 +51,7 @@ n = int(input("Size of the square matrix: "))
 while n < 0:
     print('must be non-negative')
     n = int(input())
+
+matrix = my_matrix(n)
+for row in matrix:
+    print(' '.join(f'{num:2}' for num in row))
