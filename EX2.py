@@ -55,3 +55,7 @@ while n < 0:
 matrix = my_matrix(n)
 for row in matrix:
     print(' '.join(f'{num:2}' for num in row))
+
+### PART 2
+
+print("\nPART 2")
