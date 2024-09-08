@@ -59,3 +59,13 @@ for row in matrix:
 ### PART 2
 
 print("\nPART 2")
+
+def sumOfDiagonals(matrix):
+    primarySum = 0
+    secondarySum = 0
+
+    for i in range(n):
+        primarySum += matrix[i][i]
+        secondarySum += matrix[i][n - i - 1]
+
+    return primarySum, secondarySum
