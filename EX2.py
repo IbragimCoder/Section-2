@@ -69,3 +69,8 @@ def sumOfDiagonals(matrix):
         secondarySum += matrix[i][n - i - 1]
 
     return primarySum, secondarySum
+
+diagonal_sums = sumOfDiagonals(matrix)
+
+print(f"Primeay diagonal sum: {diagonal_sums[0]}")
+print(f"Secondary diagonal sum : {diagonal_sums[1]}")
