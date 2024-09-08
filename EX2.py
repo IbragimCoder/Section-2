@@ -45,3 +45,9 @@ def my_matrix(n):
         step += 1
 
     return matrix
+
+
+n = int(input("Size of the square matrix: "))
+while n < 0:
+    print('must be non-negative')
+    n = int(input())
